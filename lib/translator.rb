@@ -3,6 +3,7 @@ require "yaml"
 
 def load_library(emoticons)
   emoticons = YAML.load_file("emoticons.yml")
+  binding.pry
 end
 
 def get_japanese_emoticon
